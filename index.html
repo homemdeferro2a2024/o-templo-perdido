@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap" rel="stylesheet">
+    <title>O Templo Perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="canerio-passo0.avif" alt="">
+            <p>Você encontra a entrada de um antigo templo perdido, escondido nas selvas. A entrada está trancada com um enigma ou você pode tentar forçá-la. Qual será sua escolha?</p>
+            <button class="btn-proximo" data-proximo="1">Resolver o Enigma</button>
+            <button class="btn-proximo" data-proximo="2">Forçar a Entrada</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você consegue resolver o enigma e entra no templo. Diante de você, há três caminhos. Qual você escolherá?</p>
+            <button class="btn-proximo" data-proximo="3">Caminho da Esquerda</button>
+            <button class="btn-proximo" data-proximo="4">Caminho do Meio</button>
+            <button class="btn-proximo" data-proximo="5">Caminho da Direita</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Forçar a entrada ativa uma armadilha. Você precisa decidir como reagir.</p>
+            <button class="btn-proximo" data-proximo="6">Evitar a Armadilha</button>
+            <button class="btn-proximo" data-proximo="7">Ignorar a Armadilha e Seguir em Frente</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No Caminho da Esquerda, você encontra uma sala com um baú e um pedregulho enorme.</p>
+            <button class="btn-proximo" data-proximo="8">Abrir o Baú</button>
+            <button class="btn-proximo" data-proximo="9">Movimentar o Pedregulho</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>No Caminho do Meio, você chega a um corredor com várias portas.</p>
+            <button class="btn-proximo" data-proximo="10">Abrir a Porta da Esquerda</button>
+            <button class="btn-proximo" data-proximo="11">Abrir a Porta da Direita</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>No Caminho da Direita, você encontra uma câmara com uma fonte e uma chave em cima de um pedestal.</p>
+            <button class="btn-proximo" data-proximo="12">Pegar a Chave</button>
+            <button class="btn-proximo" data-proximo="7">Beber da Fonte</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Você evita a armadilha e encontra um caminho secreto.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir o Caminho Secreto</button>
+            <button class="btn-proximo" data-proximo="1">Voltar para a Entrada</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Ignorar a armadilha leva você a uma câmara com uma escolha a ser feita.</p>
+            <button class="btn-proximo" data-proximo="8">Procurar por um Tesouro</button>
+            <button class="btn-proximo" data-proximo="9">Explorar a Sala</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Você decide abrir o baú e encontra um mapa do templo.</p>
+            <button class="btn-proximo" data-proximo="10">Seguir o Mapa</button>
+            <button class="btn-proximo" data-proximo="11">Explorar o Templo</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Movimentar o pedregulho revela uma passagem secreta.</p>
+            <button class="btn-proximo" data-proximo="4">Seguir pela Passagem Secreta</button>
+            <button class="btn-proximo" data-proximo="3">Retornar para a Sala</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>Abrir a Porta da Esquerda revela uma sala com uma armadilha e um pergaminho antigo.</p>
+            <button class="btn-proximo" data-proximo="12">Desarmar a Armadilha e Pegar o Pergaminho</button>
+            <button class="btn-proximo" data-proximo="5">Ignorar e Voltar</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <p>Abrir a Porta da Direita leva você a um enigma final.</p>
+            <button class="btn-proximo" data-proximo="13">Resolver o Enigma</button>
+            <button class="btn-proximo" data-proximo="4">Fugir do Templo</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Retornar e escolher o rio à esquerda revela a cachoeira escondida e as inscrições que levam à cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="13">Explorar a Cidade Perdida</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <img src="img/cenario-passo13-templo-perdido.png" alt="Descobrindo o templo perdido">
+            <p>Você finalmente encontra o templo perdido e descobre tesouros inimagináveis. Sua aventura é um grande sucesso!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
